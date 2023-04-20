@@ -1,0 +1,71 @@
+body{
+    font-family: monospace;
+}
+
+ul{
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+:root{
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+*{
+    color: var(--fontColor);
+    font-family: Helvetica;
+}
+
+body{
+    background: var(--bg);
+}
+
+.lightTheme{
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --buttonBg: var(--black);
+    --buttonFontColor: var(--white);
+}
+
+.darkTheme{
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --buttonBg: var(--white);
+    --buttonFontColor: var(--black);
+}
+
+
+button{
+    position: relative left;
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: #ff0000 ;
+    cursor:pointer;
+}
+
+
+
+.btn{
+    position: relative left ;
+    top: 30px;
+    left: 250px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    color: var(--buttonFontColor);
+    background-color: var(--buttonFontColor);
+}
+
+.btn:focus{
+    outline-style: none;
+} 
